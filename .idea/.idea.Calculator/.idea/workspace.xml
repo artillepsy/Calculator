@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2975dd59-8e48-4dc0-a5c4-f3d9fe90985f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants/Literals.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Constants/Literals.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionValidation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/InputDataSaveLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/InputDataSaveLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveLoadUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AbstractCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/AbstractCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InputErrorCanvas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InputErrorCanvas.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataContainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnserInputData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/COnstants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UserInputData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveLoadUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputDataHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputDataPerformer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AppManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performers/Expressions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ErrorMessages.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/ICanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/AbstractCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/InputCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performers/ExpressionsPerformer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/CanvasManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Graphics/InputErrorCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performers/InputDataSaveLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Constants.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performers/ExpressionValidation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Performers/ExpressionPerformer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/ErrorMessages.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants/Literals.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionValidation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EcGrzEY3Kx1sYcl1gSCyCkA5cs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2975dd59-8e48-4dc0-a5c4-f3d9fe90985f" name="Default Changelist" comment="" />
+      <created>1662887669093</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662887669093</updated>
+      <workItem from="1662887700316" duration="3995000" />
+      <workItem from="1662904001711" duration="25567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="425" y="189" key="run.anything.popup" timestamp="1662891223416">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1662891223416" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1662890145539">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1662890145539" />
+  </component>
+</project>
