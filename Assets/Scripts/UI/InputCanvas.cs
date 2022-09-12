@@ -2,7 +2,6 @@
 using SaveSystem;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace UI
 {
@@ -15,6 +14,11 @@ namespace UI
         {
             expressionInputField.text = ExpressionPerformer.Calculate(expressionInputField.text,
                 inputErrorCanvas.ShowErrorMessage);
+        }
+
+        public void OnClickClear()
+        {
+            expressionInputField.text = string.Empty;
         }
 
         private void OnApplicationQuit()

@@ -3,7 +3,7 @@ using Constants;
 
 namespace Expressions
 {
-    public class ExpressionValidation
+    public static class ExpressionValidation
     {
         public static bool CheckForEmptyString(string expression)
         {
@@ -55,7 +55,7 @@ namespace Expressions
             return false;
         }
         
-        public static bool ConvertStringToDigits(string expression, out int[] digits, Action<string> onFailedCallback)
+        public static bool TryConvertStringToDigits(string expression, out int[] digits, Action<string> onFailedCallback)
         {
             var stringDigits = expression.Split(Literals.DivideSymbol);
             digits = new int[stringDigits.Length];
