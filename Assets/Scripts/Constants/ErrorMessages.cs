@@ -2,7 +2,7 @@
 {
     public static class ErrorMessages
     {
-        public const string TooManyDividers = "Here is more than two digits";
+        public const string TooManyDividers = "Here is more than one divider";
         public const string InvalidChars = "Here is forbidden characters";
         public const string DivideByZero = "Here is division by zero";
         public const string ZeroDividers = "Here is the only one digit";

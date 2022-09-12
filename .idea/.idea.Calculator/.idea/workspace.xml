@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2975dd59-8e48-4dc0-a5c4-f3d9fe90985f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionValidation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Small Simple Game/Assets/Scripts/Player/Movement/PlayerJumping.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,10 +65,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Literals.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Constants/Literals.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/CanvasManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/InputCanvas.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionPerformer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Expressions/ExpressionValidation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Constants/ErrorMessages.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +116,7 @@
       <updated>1662887669093</updated>
       <workItem from="1662887700316" duration="3995000" />
       <workItem from="1662904001711" duration="25993000" />
-      <workItem from="1662991427373" duration="1001000" />
+      <workItem from="1662991427373" duration="1341000" />
     </task>
     <servers />
   </component>
