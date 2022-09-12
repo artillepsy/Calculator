@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 252613818}
   - component: {fileID: 252613817}
   - component: {fileID: 252613816}
-  - component: {fileID: 252613819}
   m_Layer: 0
   m_Name: ErrorCanvas
   m_TagString: Untagged
@@ -228,21 +227,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &252613819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252613814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1873d6848e4ce98f77cc878510d355, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 252613814}
-  canvasManager: {fileID: 1076093362}
-  errorLabel: {fileID: 2030860553}
 --- !u!1 &301661880
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +387,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 821224307}
+      - m_Target: {fileID: 1076093363}
         m_TargetAssemblyTypeName: UI.InputCanvas, Assembly-CSharp
         m_MethodName: OnClickResult
         m_Mode: 1
@@ -959,9 +943,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 821224307}
+      - m_Target: {fileID: 1076093363}
         m_TargetAssemblyTypeName: UI.InputCanvas, Assembly-CSharp
-        m_MethodName: OnClickResult
+        m_MethodName: OnClickClear
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1332,7 +1316,6 @@ GameObject:
   - component: {fileID: 821224306}
   - component: {fileID: 821224305}
   - component: {fileID: 821224304}
-  - component: {fileID: 821224307}
   m_Layer: 0
   m_Name: InputCanvas
   m_TagString: Untagged
@@ -1427,22 +1410,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &821224307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821224302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b1e263aeb7da4c47b71596f7169ff392, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 821224302}
-  canvasManager: {fileID: 1076093362}
-  expressionInputField: {fileID: 808468742}
-  inputErrorCanvas: {fileID: 252613819}
 --- !u!1 &1051549097
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1690,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1076093361}
   - component: {fileID: 1076093362}
+  - component: {fileID: 1076093364}
+  - component: {fileID: 1076093363}
   m_Layer: 0
   m_Name: Canvases
   m_TagString: Untagged
@@ -1761,8 +1730,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvases:
-  - {fileID: 821224307}
-  - {fileID: 252613819}
+  - {fileID: 1076093364}
+  - {fileID: 1076093363}
+--- !u!114 &1076093363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076093360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e263aeb7da4c47b71596f7169ff392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 821224302}
+  canvasManager: {fileID: 1076093362}
+  expressionInputField: {fileID: 808468742}
+  inputErrorCanvas: {fileID: 1076093364}
+--- !u!114 &1076093364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076093360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1873d6848e4ce98f77cc878510d355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 252613814}
+  canvasManager: {fileID: 1076093362}
+  errorLabel: {fileID: 2030860553}
 --- !u!1 &1173271481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,7 +1847,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 252613819}
+      - m_Target: {fileID: 1076093364}
         m_TargetAssemblyTypeName: UI.InputErrorCanvas, Assembly-CSharp
         m_MethodName: OnClickNewEquation
         m_Mode: 1
@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 252613819}
+      - m_Target: {fileID: 1076093364}
         m_TargetAssemblyTypeName: UI.AbstractCanvas, Assembly-CSharp
         m_MethodName: OnClickExit
         m_Mode: 1
@@ -2594,7 +2594,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 821224307}
+      - m_Target: {fileID: 1076093363}
         m_TargetAssemblyTypeName: UI.AbstractCanvas, Assembly-CSharp
         m_MethodName: OnClickExit
         m_Mode: 1

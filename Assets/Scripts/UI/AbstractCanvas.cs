@@ -9,13 +9,13 @@ namespace UI
         
         public void OnClickExit() => Application.Quit();
 
-        public virtual void Show()
+        public void Show()
         {
             if(!canvas.activeSelf)
                 canvas.SetActive(true);
         }
 
-        public virtual void Hide()
+        public void Hide()
         {
             if(canvas.activeSelf)
                 canvas.SetActive(false);
